@@ -1,0 +1,282 @@
+[
+   {
+    "id": 1,
+    "nom": "Hash Mousseux ++ 🇲🇦",
+    "description": "Hash mousseux avec très forte odeur de hash et de weed, belle défonce et prix vraiment cadeau, parfait pour le quotidien 🎁💨 (le bon plan de tous les jours, pas besoin de fête pour le sortir).",
+    "prix": [
+      { "poids": "10", "price": "30" },
+      { "poids": "5", "price": "20" },
+      { "poids": "2", "price": "10" }
+    ],
+    "categorie": "hash",
+    "Gamme": "jaune_mousseaux",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Hash housseux.png" },
+      { "type": "video", "src": "assets/images/v1/video/Hash mousseux.mp4" }
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Tangerine Dream Cali 🇺🇸",
+    "description": "Cali weed haut de gamme, aux notes d’agrumes très fruitées, avec une fumée énergisante et euphorique idéale pour planer tout en restant bien réveillé 🍊💭 (attention, tu risques d’aimer un peu trop).",
+    "prix": [
+      { "poids": "10", "price": "70" }
+    ],
+    "categorie": "weed",
+    "Gamme": "weed_us",
+    "media": [
+      { "type": "image", "src": "assets/images/espagnol/weed/tangerine.png" },
+      { "type": "video", "src": "assets/images/americain/hash/tangerine.mp4" }
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "AWR Diesel 73u Premium 🇲🇦",
+    "description": "Très bon frozen diesel, goût marqué et terpénique, proposé à un prix ultra abordable pour les petits budgets qui veulent quand même de la qualité 💨 (petit prix, gros caractère).",
+    "prix": [
+      { "poids": "10", "price": "60" }
+    ],
+    "categorie": "hash",
+    "Gamme": "x3",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/ 73 u premium.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/ 73 u premium.mp4" }
+    ]
+  },
+    {
+    "id": 4,
+    "nom": "Tropicozz x OG Frozen 120u by LaSource 🇲🇦",
+    "description": "Hash de luxe au goût tropical frais de weed, très aromatique, rendu accessible avec un prix cassé, parfait pour se faire plaisir sans culpabiliser 🌴🔥 (vacances dans la tête, pas dans le portefeuille).",
+    "prix": [
+      { "poids": "10", "price": "60" },
+      { "poids": "5", "price": "40" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/tropicozzXOGFrozen120U.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/tropicozzXOGFrozen120U.mp4" }
+    ]
+  },
+    {
+    "id": 5,
+    "nom": "Strawberry Lemonade Frozen 120u by LaSource 🇲🇦",
+    "description": "Frozen qui porte parfaitement son nom, équilibre entre fraise et limonade, goût fruité et acidulé, idéal pour les amateurs de profils bien sucrés 🍓🍋 (si tu aimes les boissons fraîches, tu es servi).",
+    "prix": [
+      { "poids": "10", "price": "70" },
+      { "poids": "5", "price": "40" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Strawberry lemonade frozen 120u by lasource.jpeg" },
+      { "type": "video", "src": "assets/images/v1/video/Strawberry lemonade frozen 120u by lasource.mp4" }
+    ]
+  },
+    {
+    "id": 6,
+    "nom": "Pineapple x Chunk Frozen 120u by LaSource 🇲🇦",
+    "description": "Saveur pineapple chunk très fruitée et explosive, une vraie frappe atomique proposée au meilleur prix du marché 🍍💣 (le genre de chunk qui met K.O. sans prévenir).",
+    "prix": [
+      { "poids": "10", "price": "70" },
+      { "poids": "5", "price": "40" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Pineapple x chunk frozen 120u by lasource.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/Pineapple x chunk frozen 120u by lasource.mp4" }
+    ]
+  },
+   {
+    "id": 7,
+    "nom": "Moby Dick Frozen 120u by LaSource 🇲🇦",
+    "description": "Frozen au goût fruité très aromatique, plein de saveurs intenses, à ce prix-là c’est clairement donné pour la qualité proposée 🐋✨ (une vraie légende, mais bien réelle dans le pochon).",
+    "prix": [
+      { "poids": "10", "price": "80" },
+      { "poids": "5", "price": "50" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Moby dick  frozen 120u by lasource.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/Moby dick  frozen 120u by lasource.mp4" }
+    ]
+  },
+    {
+    "id": 8,
+    "nom": "RS11 Frozen 120u by LaSource 🇲🇦",
+    "description": "Met de luxe à base de la célèbre RS11, frozen 120u finement travaillé, puissant et raffiné, pensé pour les fins connaisseurs 🔥 (si tu connais la strain, tu sais déjà que tu vas sourire).",
+    "prix": [
+      { "poids": "10", "price": "90" },
+      { "poids": "5", "price": "50" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Rs11 .Frozen 120u by lasource.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/Rs11 .Frozen 120u by lasource.mp4" }
+    ]
+  },
+    {
+    "id": 9,
+    "nom": "Coco Milk by JbalaFarms 🇲🇦",
+    "description": "Frozen signé JbalaFarms, profil crémeux et gourmand, chaque taf respecte la strain d’origine, proposé à prix cadeau 🥥 (onctueux comme un dessert, mais à ne pas manger).",
+    "prix": [
+      { "poids": "10", "price": "90" },
+      { "poids": "5", "price": "50" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/coco milk.png" },
+      { "type": "video", "src": "assets/images/v1/video/coco milk.mp4" }
+    ]
+  },
+    {
+    "id": 10,
+    "nom": "Puff Mints by JbalaFarms 🇲🇦",
+    "description": "Frozen aux notes mentholées et gourmandes, très propre et puissant, chaque produit honore sa variété, idéal pour les amateurs de fraîcheur 🌿❄️ (effet menthe forte version hash).",
+    "prix": [
+      { "poids": "10", "price": "100" },
+      { "poids": "5", "price": "80" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Puff mints by jbala farms.png" },
+      { "type": "video", "src": "assets/images/v1/video/Puff mints by jbala farms.mp4" }
+    ]
+  },
+    {
+    "id": 11,
+    "nom": "Kush n Cheese by JbalaFarms 🇲🇦",
+    "description": "Résine Kush n Cheese avec la qualité JbalaFarms, goût puissant et bien typé, parfaite pour ceux qui aiment les profils fromageux et lourds 🧀🔥 (l’odeur prévient avant l’effet).",
+    "prix": [
+      { "poids": "10", "price": "100" },
+      { "poids": "5", "price": "80" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/v1/images/Kush n cheese by jbala farms.png" },
+      { "type": "video", "src": "assets/images/v1/video/Kush n cheese by jbala farms.mp4" }
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Ethos Cookie R2 190/73u Fresh Frozen by JbalaFarms 🇲🇦",
+    "description": "Résine très fruitée et puissante avec un délicieux goût de cookies X Cali, parfaite pour ceux qui aiment les profils gourmands 🍪🔥 (le bocal se vide plus vite que prévu, c’est normal).",
+    "prix": [
+      { "poids": "100", "price": "750" },
+      { "poids": "50", "price": "400" },
+      { "poids": "25", "price": "230" },
+      { "poids": "10", "price": "100" },
+      { "poids": "5", "price": "60" },
+      { "poids": "2.5", "price": "30" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/maroc/ethgos_cookie.jpeg" },
+      { "type": "video", "src": "assets/images/maroc/ethos.mp4" }
+    ]
+  },
+   {
+    "id": 13,
+    "nom": "Fresh Frozen 35u by KGF 🇺🇸",
+    "description": "Fresh frozen signé par l’une des meilleures farms, très propre et puissant, odeur qui te prend direct et finition ultra soignée, un vrai bijou pour connaisseurs ❄️💎 (le genre de produit que tu montres avant de le fumer).",
+    "prix": [
+      { "poids": "10", "price": "110" },
+      { "poids": "5", "price": "60" },
+      { "poids": "1.5", "price": "20" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/fresh_frozen35u.jpeg" },
+      { "type": "video", "src": "assets/images/fresh_frozen35u.mp4" }
+    ]
+  },
+    {
+    "id": 14,
+    "nom": "120u by KGF 🇺🇸",
+    "description": "Résine qui monte directement à la tête, avec un effet puissant mais agréable, pensée pour ceux qui veulent une expérience forte et mémorable 💥 (un produit qui n’a pas besoin de long discours).",
+    "prix": [
+      { "poids": "10", "price": "120" },
+      { "poids": "5", "price": "60" },
+      { "poids": "1.5", "price": "20" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/120u_by_kgf.jpg" },
+      { "type": "video", "src": "assets/images/120u_by_kgf.mp4" }
+    ]
+  },
+  {
+    "id": 15,
+    "nom": "Street Fighter Pineapple Frosted 🇺🇸",
+    "description": "Mélange puissant d’ananas et de fraîcheur glacée, arôme intense et goût fruité qui reste en bouche, une frappe qui claque dès la première bouffée 🍍❄️ (tu gagnes le round 1 sans combo).",
+    "prix": [
+      { "poids": "10", "price": "130" },
+      { "poids": "5", "price": "70" },
+      { "poids": "3.5", "price": "50" },
+      { "poids": "1", "price": "20" }
+    ],
+    "categorie": "hash",
+    "Gamme": "fresh_frozen",
+    "media": [
+      { "type": "image", "src": "assets/images/street_fighter.jpg" },
+      { "type": "video", "src": "assets/images/v1/video/Frosted Pineapple by street farmz.mp4" }
+    ]
+  },
+    {
+    "id": 16,
+    "nom": "CaliPlates Lemon Cherry Skittles 🫣🇺🇸",
+    "description": "Caviar du caviar, marque mondialement reconnue pour sa qualité de luxe, saveur lemon cherry skittles ultra gourmande, disponible en stock très limité 🌍💎🔥 (si tu hésites trop, c’est le stock qui décide pour toi).",
+    "prix": [
+      { "poids": "10", "price": "150" }
+    ],
+    "categorie": "hash",
+    "Gamme": "caliplates",
+    "media": [
+      { "type": "image", "src": "assets/images/caliplate.jpeg" },
+      { "type": "video", "src": "assets/images/caliplate.mp4" }
+    ]
+  },
+  {
+    "id": 17,
+    "nom": "Piatella Mandarine x Sunset 🇪🇸",
+    "description": "Piatella aux arômes de mandarine sucrée et de sunset fruité, odeur qui reste dans l’air et goût frais, doux mais puissant, les vrais savent 🍊🌅 (tu sens le coucher de soleil avant d’ouvrir la fenêtre).",
+    "prix": [
+      { "poids": "10", "price": "300" },
+      { "poids": "5", "price": "160" },
+      { "poids": "1", "price": "40" }
+    ],
+    "categorie": "hash",
+    "Gamme": "piatella",
+    "media": [
+      { "type": "image", "src": "assets/images/patella_cookie_x_sunset.jpg" },
+      { "type": "video", "src": "assets/images/patella_cookie_x_sunset.mp4" }
+    ]
+  },
+  {
+    "id": 18,
+    "nom": "La C 🫣🇺🇸",
+    "description": "Véritable caviar haut de gamme, marque réputée mondialement pour sa qualité de luxe, stock très limité avec une fraîcheur venue tout droit des US 🇺🇸✨ (tu ne la montres pas à tout le monde, c’est normal).",
+    "prix": [
+      { "poids": "100", "price": "2 800" },
+      { "poids": "50", "price": "1 500" },
+      { "poids": "25", "price": "800" },
+      { "poids": "10", "price": "350" },
+      { "poids": "2", "price": "70" },
+      { "poids": "1", "price": "40" }
+    ],
+    "categorie": "festifs",
+    "Gamme": "coke_ecaille",
+    "media": [
+      { "type": "image", "src": "assets/images/c.jpeg" }
+    ]
+  }
+]

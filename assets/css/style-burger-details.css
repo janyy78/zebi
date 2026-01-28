@@ -1,0 +1,200 @@
+/* ------------------ GLOBAL ------------------ */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #4b007d, #1a001f 80%);
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* ------------------ LOGO ------------------ */
+.logo-detail {
+  width: 120px;
+  max-width: 70%;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* ------------------ BURGER DETAIL ------------------ */
+.burger-detail-card {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #ff99ff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Images et vidéos responsives */
+.burger-detail-card img,
+.burger-detail-card video {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* ------------------ TITRE ET DESCRIPTION ------------------ */
+.burger-detail-card h2 {
+  color: #ffb3ff;
+  margin-bottom: 0.5rem;
+}
+
+.burger-detail-card .description {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff99ff;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  color: #e3d6ff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* ------------------ KILO PRICES ------------------ */
+.kilo-prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.kilo-prices button {
+  position: relative;
+  background: linear-gradient(270deg, #ff8a00, #e52e71, #ff8a00);
+  background-size: 400% 400%;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: gradientMove 4s ease infinite;
+}
+
+/* effet de survol : intensifie l’éclat */
+.kilo-prices button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  animation-play-state: paused; /* stoppe le mouvement au hover */
+  filter: brightness(1.2);
+}
+
+/* clic : légère réduction visuelle */
+.kilo-prices button:active {
+  transform: scale(0.97);
+}
+
+/* animation du dégradé */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ------------------ CONTACT BUTTONS ------------------ */
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-buttons a.telegram {
+  background: #0088cc;
+}
+
+.contact-buttons a.snapchat {
+  background: #fffc00;
+  color: #000;
+}
+
+.contact-buttons a.pinterest {
+  background: #bd081c;
+}
+
+.contact-buttons a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* ------------------ BOUTON RETOUR ------------------ */
+.btn-retour {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  margin: 16px auto;
+}
+
+.btn-retour:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  background: linear-gradient(135deg, #e52e71, #ff8a00);
+}
+
+.btn-retour:active {
+  transform: scale(0.97);
+}
+
+/* ------------------ RESPONSIVE ------------------ */
+@media (max-width: 600px) {
+  .burger-detail-card img,
+  .burger-detail-card video {
+    max-height: 200px;
+  }
+
+  .kilo-prices button,
+  .contact-buttons a {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  .btn-retour {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .burger-detail-card .description {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+  }
+}

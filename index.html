@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Mania 🍔</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+
+<body>
+  <!-- HEADER / HERO -->
+  <header class="hero">
+    <img src="assets/images/logo.jpg" alt="Logo CoffeeSnoop68" class="logo animate__animated animate__fadeInDown">
+    <h1 class="hero-title animate__animated animate__fadeInDown">Bienvenue chez COFFEESNOOP68 ☕</h1>
+    <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s"> Produits haut de gamme, issus de
+      différentes régions 🌍, avec des commandes rapides et efficaces.<br> Parcours la mini-application, fais ton choix
+      en toute simplicité… le plus dur sera de te décider 😉. </p>
+    <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s"> <i>Ici, on veille sérieusement à la
+        discrétion et à la sécurité de nos échanges 🔒. Tranquille, tu es entre de bonnes mains.</i> </p>
+    <h1 class="hero-promo animate__animated animate__fadeInDown"> 18 produits sont en promo 🎯 </h1>
+    <p class="animate__animated animate__fadeInUp animate__delay-1s"> Profite des meilleurs plans avant qu’il ne reste
+      plus que les regrets 😉 </p>
+
+  </header>
+
+  <!-- FILTRES -->
+  <div class="filter">
+    <div class="filter-row">
+      <label for="categories">Catégorie :</label>
+      <select id="categories">
+        <option value="all">Toutes</option>
+        <option value="hash">Hash</option>
+        <option value="weed">Weed</option>
+        <option value="festifs">Festifs</option>
+      </select>
+    </div>
+
+    <div class="filter-row">
+      <label for="gamme">Gamme :</label>
+      <select id="gamme">
+        <option value="all">Toutes</option>
+        <option value="dry">Dry</option>
+        <option value="x3">X3</option>
+        <option value="static">Static</option>
+        <option value="frozen_sift">Frozen sift</option>
+        <option value="fresh_frozen">Fresh Frozen</option>
+        <option value="jaune_mousseaux">Jaune mousseaux</option>
+        <option value="rosin">Rosin</option>
+        <option value="wax">Wax</option>
+        <option value="wpff">Wpff</option>
+        <option value="piatella">Piatella</option>
+        <option value="caliplates">Caliplates</option>
+        <option value="edibales">Edibles</option>
+        <option value="weed_es">Weed ES</option>
+        <option value="weed_nl">Weed NL</option>
+        <option value="coke_ecaille">Coke ecaille</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- MENU BURGERS -->
+  <main id="menu" class="menu-grid">
+    <!-- Les cartes seront injectées par script.js -->
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/telegram.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
