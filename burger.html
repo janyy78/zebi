@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <script>
+    if (!localStorage.getItem('foxfarm_verified')) {
+      var returnUrl = 'burger.html' + (window.location.search || '');
+      window.location.replace('verification.html?return=' + encodeURIComponent(returnUrl));
+    }
+  </script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Détails Burger</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#e85d04">
+  <title>Détails Produit — FoxFarm</title>
   <link rel="stylesheet" href="assets/css/style-burger-details.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
-
-    <style>
-    /* Lien cliquable moderne */
-    .btn-retour {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: linear-gradient(135deg, #ff8a00, #e52e71);
-      color: #fff;
-      text-decoration: none;
-      border-radius: 12px;
-      padding: 12px 20px;
-      font-size: 1rem;
-      font-weight: 600;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-      transition: all 0.3s ease;
-      margin: 16px;
-    }
-
-    .btn-retour:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-      background: linear-gradient(135deg, #e52e71, #ff8a00);
-    }
-
-    .btn-retour:active {
-      transform: scale(0.97);
-    }
-
-    .btn-retour span {
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
 <body>
-  <a href="index.html" class="btn-retour animate__animated animate__fadeInDown">
-    <span>←</span> Retour à l’accueil
-  </a>
+  <header class="burger-header">
+    <a href="index.html" id="btnRetour" class="btn-retour animate__animated animate__fadeInDown">
+      <span>←</span> Retour
+    </a>
+    <img src="assets/images/a7f2e9d1.jpg" alt="FoxFarm" class="burger-logo">
+    <div class="burger-header-spacer"></div>
+  </header>
   <main id="burger-detail" class="burger-detail-card">
     <!-- Le contenu sera injecté par detail.js -->
   </main>
 
+  <!-- Lightbox pour voir images/vidéos en détail -->
+  <div class="media-lightbox" id="media-lightbox" aria-hidden="true">
+    <div class="media-lightbox-overlay"></div>
+    <div class="media-lightbox-content">
+      <button class="media-lightbox-close" aria-label="Fermer">×</button>
+      <div class="media-lightbox-body">
+        <img class="media-lightbox-img" src="" alt="">
+        <video class="media-lightbox-video" controls playsinline></video>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="assets/js/detail.js"></script>
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
-<script src="assets/js/telegram.js"></script>
+  <script src="assets/js/telegram.js"></script>
 </body>
 </html>
