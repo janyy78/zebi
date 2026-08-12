@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "nom": "🥶 WPFF 🥶",
+    "description": "🥶 Comme un souffle glacé qui garde toute la vie de la plante : WPFF, c’est la fraîcheur capturée à l’état sauvage 🌨️🍃 En bouche, une rondeur étonnamment douce pour une technique si radicale. La WPFF, c’est l’alliance du froid et du vivant ❄️💚. By FoxFarms🦊",
+    "prix": [
+      { "poids": "2", "price": "40" },
+      { "poids": "5", "price": "80" },
+      { "poids": "10", "price": "150" }
+    ],
+    "categorie": "hash", 
+    "Gamme": "wpff", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/p8e3c1a6.png" }, 
+      { "type": "video", "src": "assets/images/v4a8e2d7b3.mp4" } 
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Piatella Moroco 🇲🇦 ",
+    "description": "Fondante et onctueuse, elle brûle proprement sans résidu pour une fumée douce et un effet relaxant qui dure, adorée par nos clients ✨🔥. By FoxFarms🦊",
+    "prix": [
+      { "poids": "1", "price": "30"},
+      { "poids": "2", "price": "50"},
+      { "poids": "5", "price": "120"},
+      { "poids": "10", "price": "200"},
+      { "poids": "50", "price": "800"},
+      { "poids": "100", "price": "1500"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "full melt", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/aaaaaaaaaaaaaaaaaaaaaa.png" }, 
+      { "type": "video", "src": "assets/images/papapa.mp4" } 
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Strawberry banana 🍓🍌",
+    "description": "Un doux mélange fruité entre fraise mûre et banane sucrée, pour une vapeur onctueuse et un effet relaxant tout en rondeur 🌿✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "30"},
+      { "poids": "10", "price": "50"},
+      { "poids": "25", "price": "120"},
+      { "poids": "50", "price": "220"},
+      { "poids": "100", "price": "400"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "x3", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/signal-2026-08-13-00-05-59-520.png" }, 
+      { "type": "video", "src": "assets/images/stras.mp4" } 
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "🌿 Blue Cream 🍇",
+    "description": "Notes fruitées et sucrées, avec des arômes de myrtille et une touche terreuse 🍓✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "30"},
+      { "poids": "10", "price": "50"},
+      { "poids": "25", "price": "120"},
+      { "poids": "50", "price": "220"},
+      { "poids": "100", "price": "400"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "x3", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/content.png" }, 
+      { "type": "video", "src": "assets/images/bluecream.mp4" } 
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "🍊 Cali 13 🌿",
+    "description": "Profil fruité et acidulé, avec de belles notes d’agrumes 🍊✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "30"},
+      { "poids": "10", "price": "50"},
+      { "poids": "25", "price": "120"},
+      { "poids": "50", "price": "220"},
+      { "poids": "100", "price": "400"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "x3", 
+    "origine": "", 
+    "media": [
+      { "type": "image", "src": "assets/images/signal-2026-08-13-00-10-04-182.png" }, 
+      { "type": "video", "src": "assets/images/cali13.mp4" } 
+    ]
+  },
+  {
+    "id": 6,
+    "nom": "🍬 Dry Starburst Chewz — 🍓",
+    "description": "Saveurs fruitées et sucrées, avec une touche acidulée façon bonbon 🍭✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "10", "price": "40"},
+      { "poids": "25", "price": "100"},
+      { "poids": "50", "price": "200"},
+      { "poids": "100", "price": "380"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "dry sift", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/aaaa.png" }, 
+      { "type": "video", "src": "assets/images/darstarbustchewz.mp4" } 
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "🌿 Marshmallow OG — 🍰",
+    "description": "Notes douces et crémeuses, mêlant des arômes sucrés à une légère touche terreuse 🍦✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "40"},
+      { "poids": "10", "price": "70"},
+      { "poids": "25", "price": "150"},
+      { "poids": "50", "price": "280"},
+      { "poids": "100", "price": "550"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "Frozen sift", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/aaaaaaaaa.png" }, 
+      { "type": "video", "src": "assets/images/neutre_OG.mp4" } 
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "🍒 Cherry Cola Auto — 🥤",
+    "description": "Notes sucrées et fruitées de cerise et cola, avec une touche crémeuse 🍒🍬✨.By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "40"},
+      { "poids": "10", "price": "70"},
+      { "poids": "25", "price": "150"},
+      { "poids": "50", "price": "280"},
+      { "poids": "100", "price": "550"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "Frozen sift", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/bbbbbbbbbbbbbbbb.png" }, 
+      { "type": "video", "src": "assets/images/signal-2026-08-12-22-41-21-761_002.mp4" } 
+    ]
+  },
+    {
+    "id": 9,
+    "nom": "🍊 Mandarina Skittlez — 🍬",
+    "description": "Notes fruitées et acidulées, dominées par les agrumes et une touche sucrée de bonbon 🍊✨. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "40"},
+      { "poids": "10", "price": "70"},
+      { "poids": "25", "price": "150"},
+      { "poids": "50", "price": "280"},
+      { "poids": "100", "price": "550"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "Frozen sift", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/zzzz.png" }, 
+      { "type": "video", "src": "assets/images/mandarina_skittlez.mp4" } 
+    ]
+  },
+    {
+    "id": 10,
+    "nom": "🫧 Static Sift — 🌿 ",
+    "description": "Profil riche et résineux, avec des notes terreuses, boisées et légèrement épicées ✨🌱. By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "30"},
+      { "poids": "10", "price": "60"},
+      { "poids": "25", "price": "130"},
+      { "poids": "50", "price": "260"},
+      { "poids": "100", "price": "500"}
+    ],
+    "categorie": "hash", 
+    "Gamme": "Frozen sift", 
+    "origine": "🇲🇦 Maroc", 
+    "media": [
+      { "type": "image", "src": "assets/images/eeee.png" }, 
+      { "type": "video", "src": "assets/images/signal-2026-08-12-22-41-21-761_003.mp4" } 
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "🇨🇦 Canada Cali — 🌿",
+    "description": "Profil fruité et intense, avec des notes sucrées, terreuses et légèrement résineuses 🍬✨ .By FoxFarms🦊",
+    "prix": [
+      { "poids": "5", "price": "40"},
+      { "poids": "10", "price": "70"},
+      { "poids": "25", "price": "150"},
+      { "poids": "50", "price": "280"},
+      { "poids": "100", "price": "550"}
+    ],
+    "categorie": "weed", 
+    "Gamme": "Top Shelf", 
+    "origine": "🇨🇦 Canada", 
+    "media": [
+      { "type": "image", "src": "assets/images/rrr.png" }, 
+      { "type": "video", "src": "assets/images/canada.mp4" } 
+    ]
+  }
+]

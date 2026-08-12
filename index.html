@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <script>
+    if (!sessionStorage.getItem('foxfarm_verified')) {
+      window.location.replace('verification.html');
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoxFarms 🦊 | Hash & Weed Premium</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/page-float-decor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+
+<body>
+  <div class="page-float-decor" aria-hidden="true">
+    <span class="page-float page-float--fox">🦊</span>
+    <span class="page-float page-float--smoke">💨</span>
+    <span class="page-float page-float--herb">🌿</span>
+    <span class="page-float page-float--star">⭐</span>
+  </div>
+  <div class="page-shell">
+  <!-- HEADER / HERO -->
+  <header class="hero">
+    <img src="assets/images/a7f2e9d1.jpg" alt="FoxFarm" class="logo animate__animated animate__fadeInDown">
+    <h1 class="hero-title animate__animated animate__fadeInDown">FoxFarms 🦊</h1>
+    <p class="hero-slogan animate__animated animate__fadeInUp animate__delay-1s">Premium · Discret · Rapide</p>
+    <p class="hero-lead animate__animated animate__fadeInUp animate__delay-1s">Hash 🇲🇦, weed 🇺🇸, sélection mondiale 🌍 — tarifs et produits clairs, tout le catalogue en un coup d’œil. <br> <strong>By FoxFarms🦊</strong></p>
+    <!-- <div class="hero-promo-block" role="group" aria-label="Promotions">
+      <h2 class="hero-promo" id="hero-promo-title">Promos</h2>
+      <p class="hero-promo-note">Les bons plans du moment.</p>
+    </div> -->
+  </header>
+
+  <!-- NOUVEAUTÉS -->
+  <!-- <section class="nouveautes">
+    <h2 class="nouveautes-title">🆕 Nouveautés</h2>
+    <div class="nouveautes-content">
+      <img src="assets/images/b8c3d4e5.jpg" alt="Nouveautés FoxFarm" class="nouveautes-image" id="nouveautes-img" tabindex="0">
+    </div>
+  </section> -->
+
+  <!-- Lightbox image agrandie -->
+  <!-- <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Fermer">×</button>
+      <img src="assets/images/b8c3d4e5.jpg" alt="Nouveautés FoxFarm - vue agrandie" class="lightbox-image">
+    </div>
+  </div> -->
+
+  <!-- FILTRES -->
+  <div class="filter">
+    <div class="filter-row filter-row-search">
+      <label for="search">Recherche :</label>
+      <input id="search" type="search" placeholder="Nom du produit..." autocomplete="off">
+    </div>
+
+    <div class="filter-row">
+      <label for="categories">Catégorie :</label>
+      <select id="categories">
+        <option value="all">🌍 Toutes</option>
+        <option value="hash">👑 Hash</option>
+        <option value="weed">🌿 Weed</option>
+        <option value="festifs">🎉 Festifs</option>
+      </select>
+    </div>
+
+    <div class="filter-row">
+      <label for="gamme">Gamme :</label>
+      <select id="gamme">
+        <option value="all">🌍 Toutes</option>
+        <option value="dry">🌬️ Dry</option>
+        <option value="x3">⚡ X3</option>
+        <option value="static">🧲 Static</option>
+        <option value="frozen_sift">❄️ Frozen Sift</option>
+        <option value="fresh_frozen">🧊 Fresh Frozen</option>
+        <option value="jaune_mousseaux">🍋 Jaune Mousseaux</option>
+        <option value="rosin">🫙 Rosin</option>
+        <option value="wax">🕯️ Wax</option>
+        <option value="wpff">🥶 WPFF</option>
+        <option value="piatella">🍫 Piatella</option>
+        <option value="caliplates">🇺🇸 Caliplates</option>
+        <option value="edibales">🍬 Edibles</option>
+        <option value="weed_us">🇺🇸 Weed US</option> 
+        <option value="weed_ca">🇨🇦 Weed CA</option>
+        <option value="weed_es">🇪🇸 Weed ES</option>
+        <option value="weed_nl">🇳🇱 Weed NL</option>
+        <option value="coke_ecaille">⚪ Coke Écaille</option>
+      </select>
+    </div>
+
+    <div class="filter-row">
+      <label for="origine">Origine :</label>
+      <select id="origine">
+        <option value="all">🌍 Toutes</option>
+      </select>
+    </div>
+
+    <div class="filter-row">
+      <label for="price-range">Prix :</label>
+      <select id="price-range">
+        <option value="all">Tous les prix</option>
+        <option value="20">À partir de 20€</option>
+        <option value="40">À partir de 40€</option>
+        <option value="60">À partir de 60€</option>
+        <option value="80">À partir de 80€</option>
+        <option value="100">À partir de 100€</option>
+      </select>
+    </div>
+
+    <div class="filter-row">
+      <label for="sort">Trier :</label>
+      <select id="sort">
+        <option value="default">Pertinence</option>
+        <option value="price_asc">Prix croissant</option>
+        <option value="price_desc">Prix décroissant</option>
+        <option value="name_asc">Nom A-Z</option>
+      </select>
+    </div>
+
+    <div class="filter-meta" aria-live="polite">
+      <p id="filter-summary" class="filter-summary">Chargement du catalogue...</p>
+      <button id="reset-filters" class="filter-reset" type="button">Réinitialiser les filtres</button>
+    </div>
+  </div>
+
+  <!-- MENU BURGERS -->
+  <main id="menu" class="menu-grid">
+    <!-- Les cartes seront injectées par script.js -->
+  </main>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/telegram.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    (function() {
+      const img = document.getElementById('nouveautes-img');
+      const lightbox = document.getElementById('lightbox');
+      if (!lightbox) return;
+
+      const overlay = lightbox.querySelector('.lightbox-overlay');
+      const closeBtn = lightbox.querySelector('.lightbox-close');
+
+      function openLightbox() {
+        lightbox.classList.remove('is-closing');
+        lightbox.classList.add('is-open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        lightbox.classList.add('is-closing');
+        setTimeout(function() {
+          lightbox.classList.remove('is-open', 'is-closing');
+          lightbox.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }, 300);
+      }
+
+      if (img) {
+        img.addEventListener('click', openLightbox);
+        img.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox();
+          }
+        });
+      }
+      overlay?.addEventListener('click', closeLightbox);
+      closeBtn?.addEventListener('click', closeLightbox);
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('is-open')) {
+          closeLightbox();
+        }
+      });
+    })();
+  </script>
+</body>
+
+</html>

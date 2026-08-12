@@ -1,0 +1,35 @@
+{
+  "1": {
+    "favorites": 2,
+    "reviews": [
+      { "rating": 5, "comment": "Très propre.", "date": "2026-05-03" },
+      { "rating": 4, "comment": "", "date": "2026-05-01" }
+    ]
+  },
+  "2": {
+    "favorites": 1,
+    "reviews": [
+      { "rating": 4, "comment": "Bon rapport qualité prix.", "date": "2026-05-02" }
+    ]
+  },
+  "3": {
+    "favorites": 3,
+    "reviews": [
+      { "rating": 5, "comment": "Très belle qualité.", "date": "2026-05-04" }
+    ]
+  },
+  "4": {
+    "favorites": 2,
+    "reviews": []
+  },
+  "5": {
+    "favorites": 1,
+    "reviews": [
+      { "rating": 5, "comment": "", "date": "2026-04-30" }
+    ]
+  },
+  "6": {
+    "favorites": 0,
+    "reviews": []
+  }
+}

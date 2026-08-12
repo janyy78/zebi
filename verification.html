@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#e85d04">
+  <title>Vérification — FoxFarms 🦊</title>
+  <link rel="stylesheet" href="assets/css/verification.css">
+  <link rel="stylesheet" href="assets/css/page-float-decor.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="page-float-decor" aria-hidden="true">
+    <span class="page-float page-float--fox">🦊</span>
+    <span class="page-float page-float--smoke">💨</span>
+    <span class="page-float page-float--herb">🌿</span>
+    <span class="page-float page-float--star">⭐</span>
+  </div>
+  <div class="page-shell">
+  <main class="verification-page" aria-labelledby="verification-title">
+    <section class="verification-card">
+      <img src="assets/images/a7f2e9d1.jpg" alt="Logo FoxFarm" class="verification-logo" loading="lazy">
+      <h1 class="verification-title" id="verification-title">FoxFarm</h1>
+      <p class="verification-subtitle">Fox Quiz Security</p>
+      <p class="verification-text">Réponds à une question renard pour confirmer que tu es humain.</p>
+
+      <section class="fox-quiz" id="fox-quiz" aria-labelledby="fox-quiz-title">
+        <div class="fox-quiz-head">
+          <p class="fox-quiz-title" id="fox-quiz-title">Question renard</p>
+          <button type="button" class="fox-quiz-refresh" id="fox-quiz-refresh" aria-label="Changer de question">
+            Changer
+          </button>
+        </div>
+        <p class="fox-quiz-question" id="fox-quiz-question">Chargement de la question...</p>
+        <div class="fox-quiz-options" id="fox-quiz-options" role="radiogroup" aria-label="Choisis la bonne reponse"></div>
+        <p class="fox-quiz-feedback" id="fox-quiz-feedback" aria-live="polite"></p>
+      </section>
+
+      <button id="verification-continue" class="verification-continue-btn" disabled>Continuer</button>
+      <p class="verification-disclaimer">
+        Astuce: choisis simplement la bonne réponse puis continue.
+      </p>
+    </section>
+  </main>
+  </div>
+
+  <script src="assets/js/verification.js"></script>
+</body>
+</html>
