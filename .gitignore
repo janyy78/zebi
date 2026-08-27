@@ -1,0 +1,10 @@
+env/
+admin/
+handlers/
+logs/
+services/
+utils/
+**/__pycache__/**
+**/**/*.py
+assets/data/users.json
+

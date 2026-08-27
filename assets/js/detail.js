@@ -55,19 +55,19 @@ async function loadSocialsFile(url) {
 
 function socialMeta(title) {
   const normalized = String(title || "").toLowerCase();
-  if (normalized.includes("telegram")) {
+  if (normalized === "telegram") {
     return { className: "telegram", icon: "telegram.svg", isLuffa: false };
   }
-  if (normalized.includes("luffa")) {
+  if (normalized === "luffa") {
     return { className: "luffa", icon: null, isLuffa: true };
   }
-  if (normalized.includes("signal")) {
+  if (normalized === "signal") {
     return { className: "signal", icon: "signal.svg", isLuffa: false };
   }
-  if (normalized.includes("snapchat")) {
+  if (normalized === "snapchat") {
     return { className: "snapchat", icon: CONTACT_SNAPCHAT_LOGO_URL, isLuffa: true };
   }
-  return { className: "telegram", icon: "telegram.svg", isLuffa: false };
+  return null;
 }
 
 async function loadReviewsFile(url) {
@@ -210,6 +210,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const contactButtonsHtml = socials
       .map((social) => {
         const meta = socialMeta(social.title);
+        if (!meta) return null;
         const safeTitle = escapeHtml(social.title);
         const safeHref = escapeAttr(social.url);
         if (meta.isLuffa) {
