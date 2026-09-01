@@ -5,8 +5,8 @@
     "description": "🥶 Comme un souffle glacé qui garde toute la vie de la plante : WPFF, c’est la fraîcheur capturée à l’état sauvage 🌨️🍃 En bouche, une rondeur étonnamment douce pour une technique si radicale. La WPFF, c’est l’alliance du froid et du vivant ❄️💚. By FoxFarms🦊",
     "prix": [
       { "poids": "2", "price": "30" },
-      { "poids": "5", "price": "60" }
-      { "poids": "10", "price": "120" }
+      { "poids": "5", "price": "60" },
+      { "poids": "10", "price": "120" },
     ],
     "categorie": "hash", 
     "Gamme": "wpff", 
