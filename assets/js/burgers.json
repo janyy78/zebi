@@ -6,7 +6,7 @@
     "prix": [
       { "poids": "2", "price": "30" },
       { "poids": "5", "price": "60" },
-      { "poids": "10", "price": "120" },
+      { "poids": "10", "price": "120" }
     ],
     "categorie": "hash", 
     "Gamme": "wpff", 
